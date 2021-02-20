@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    font-size: 18px;
+}
+
+.intro{
+
+    background-color: #2451af;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main{
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.photo{
+    max-width: 300px;
+}
+
+.img{
+    width: 100px;
+}
