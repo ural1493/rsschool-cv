@@ -6,8 +6,11 @@ body{
 h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
-
+html{
+    background-color: lavender;
+}
 h1{
+    padding: 30px;
     color: aliceblue;
 }
 
@@ -31,6 +34,7 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     max-width: 1200px;
@@ -42,4 +46,23 @@ p{
 
 .img{
     width: 100px;
+}
+
+pre{
+    font-size: .9em;
+    max-width: 400px;
+    padding: 20px;
+    border: darkgray 3px solid;
+    border-radius: 10px;
+    background-color: linen;
+}
+
+::marker{
+    font-size: 24px;
+}
+ol{
+    min-width: 200px;
+}
+.list li{
+    padding: 5px;
 }
